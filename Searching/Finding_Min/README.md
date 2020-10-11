@@ -1,6 +1,6 @@
 ﻿#   Find Min
 
-Given a sorted array arr[] of N elements, write a function to search the minimum  number which is greater than x.
+Given a sorted array arr[] of N elements, write a function to search the minimum  number which is greater than X.
 
 #### Input Format
 >  * The first line of input contains a single integer N denoting the length of the array.
@@ -8,7 +8,7 @@ Given a sorted array arr[] of N elements, write a function to search the minimum
 >  * The third line contains the element X.
 
 #### Output Format
->  Output minimum  number which is less than x.
+>  Output minimum  number which is less than X.
 
 ### Sample Input
 ```
