@@ -6,7 +6,7 @@ Given a sorted array arr[] of N elements, write a function to search the maximum
 #### Input Format
 >  * The first line of input contains a single integer N denoting the length of the array.
 >  * Second line contains N space separated positive integers.
->   The third line contains the element X.
+>  *The third line contains the element X.
 
 #### Output Format
 >  Output max number which is less than x.
