@@ -13,7 +13,7 @@ git clone https://github.com/csi-vitpune/DS-Algo_CSI-VIT-Pune.git
 
 ## Directory Structure
 ```
-FlutterMagazine/
+DS-Algo_CSI-VIT-Pune/
 |- Arrays
     |- FibonacciSeries
 |- Queue
