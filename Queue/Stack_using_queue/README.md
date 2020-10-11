@@ -9,6 +9,10 @@ Implement the MyQueue class:
 > * int peek() Returns the element at the front of the queue.
 > * boolean empty() Returns true if the queue is empty, false otherwise.
 
+Notes:
+
+> * You must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid.
+> * aDepending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.
 
 ### Sample Input
 ```   
