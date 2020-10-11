@@ -1,5 +1,5 @@
 # DS-Algo_CSI-VIT-Pune
-Data Structure and Algorithms Problems(DSA) to enhance your knowledge.
+Data Structure and Algorithms Problems(DSA).
 
 ## Installation
 
@@ -34,4 +34,58 @@ FlutterMagazine/
     |- RemoveSpaces
 ```
 
-**PR for new DS and Algo are welcome**
+**New DS and Algo are welcome**
+
+##  Contribution
+
+**Step 1:**
+
+Fork Repository
+
+```bash
+Click on the Fork
+```
+
+**Step 2:**
+
+Clone Forked repository Repository
+
+```bash
+git clone [Forked Repo link]
+```
+
+**Step 3:**
+
+Make Necessary Changes
+
+**Step 4:**
+
+Syncing a Forked Repository with Upstream
+
+```bash
+git remote add upstream https://github.com/csi-vitpune/DS-Algo_CSI-VIT-Pune.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+
+**Step 5:**
+
+Push Changes to Forked Repository
+
+```bash
+git push
+```
+
+**Step 6:**
+
+Create Merge Request
+
+```bash
+By navigating to Create New Merge request
+```
+
+
+
+
+
