@@ -3,11 +3,6 @@
 using namespace std;
 
 int main () {
-
-#ifndef ONLINE_JUDGE     // input output files 
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-#endif
 	string s;
 	getline(cin, s);
 	int c = 0;
@@ -27,7 +22,9 @@ int main () {
 
 		}
 	}
-
-	cout << s << endl;
+	for (int i = 0; s[i] != '\0'; ++i)
+	{
+		cout << s[i];
+	}
 
 }
