@@ -1,0 +1,40 @@
+bool findMidReverse(ListNode *head)
+        {
+            ListNode *fast, *slow;
+            fast = head;
+            slow = head;
+            while (fast->next != NULL && fast->next->next != NULL)
+            {
+                slow = slow->next;
+                fast = fast->next->next;
+            }
+           	// reverse
+            ListNode *prev, *curr, *nextptr;
+            curr = slow->next;
+            prev = NULL;
+            while (curr != NULL)
+            {
+                nextptr = curr->next;
+                curr->next = prev;
+                prev = curr;
+                curr = nextptr;
+            }
+           	// compare
+            slow->next = prev;
+            ListNode *temp = head;
+            while (prev != NULL)
+            {
+                if (temp->val != prev->val)
+                {
+                    return 0;
+                }
+                prev = prev->next;
+                temp = temp->next;
+            }
+            return 1;
+        }
+    bool isPalindrome(ListNode *head)
+    {
+       	// find mid and reverse 
+        return findMidReverse(head);
+    }
